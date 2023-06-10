@@ -5,72 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">Header Logo</div>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </div>
+
+
+    <section class="top">
+        <div class="wrapper">
+            <div class="header">
+                <div class="logo">Header Logo</div>
+                <ul id="nav">
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </div>
+            <div class="about">
+                <div class="about-text">
+                    <div class="about-text-title">
+                        This website is awesome
+                    </div>
+                    <div class="about-text-description">
+                        This website has some subtext that goes under the main title. It's a smaller font and the
+                        color
+                        is
+                        lower contrast.
+                    </div>
+                    <button class="about-button">Sign-up</button>
+                </div>
+                <img src="images/animal-g72baa494f_1280.jpg" alt="">
+            </div>
+        </div>
+    </section>
     <main>
-        <div class="about">
-            <div class="about-text">
-                <div class="about-text-title">
-                    This website is awesome
-                </div>
-                <div class="about-text-description">
-                    This website has some subtext that goes under the main title. It's a smaller font and the color is
-                    lower contrast.
-                </div>
-                <button class="about-button">Sign-up</button>
-            </div>
-            <div class="about-pic"><img src="images/animal-g72baa494f_1280.jpg" alt=""></div>
-        </div>
-        <div class="content">
-            <div class="content-title"></div>
-            <div class="content-body">
-                <div class="card">
-                    <div class="card-pic">Some random information</div>
-                    <div class="card-text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="card">
-                    <div class="card-pic"></div>
-                    <div class="card-text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="card">
-                    <div class="card-pic"></div>
-                    <div class="card-text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="card">
-                    <div class="card-pic"></div>
-                    <div class="card-text">this is some subtext under an illustration or image</div>
+        <section class="wrapper">
+            <div class="content">
+                <div class="content-title">Some random information</div>
+                <div class="content-body">
+                    <div class="card">
+                        <div class="card-pic"></div>
+                        <div class="card-text">this is some subtext under an illustration or image</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-pic"></div>
+                        <div class="card-text">this is some subtext under an illustration or image</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-pic"></div>
+                        <div class="card-text">this is some subtext under an illustration or image</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-pic"></div>
+                        <div class="card-text">this is some subtext under an illustration or image</div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="quotes">
-            <p><cite>
-                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or
-                    maybe people will actually read it. Who knows? All I know is that it actually looks nice
-                </cite></p>
-            <div class="author">-By Thor, God of Thunder</div>
+            <div class="wrapper quotes">
+                <p><cite>
+                        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
+                        or
+                        maybe people will actually read it. Who knows? All I know is that it actually looks nice
+                    </cite></p>
+                <div class="author">-By Thor, God of Thunder</div>
+            </div>
         </div>
-        <div class="sign-up">
+
+    </main>
+    <section class="wrapper" id="box">
+        <section class="sign-up">
             <div class="sign-up-box">
                 <div class="sign-up-text">
-                    <div class="sign-title"></div>
-                    <div class="sign-description"></div>
+                    <div class="sign-title">Call to action! It's time!</div>
+                    <div class="sign-description">Sign up for our product by clicking that button over there</div>
                 </div>
 
             </div>
-            <div class="sign-button">Sign up</div>
+            <button class="sign-button">Sign up</button>
+        </section>
+    </section>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer-text">Copyright &copy; The odin project 2021</div>
         </div>
-    </main>
-    <div class="footer"></div>
+    </div>
+    </div>
 </body>
 
 </html>
